@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //console
+        console.log("Hello world");
+        console.warn("Alert");
+        console.error("Error");
+
+        //variables
+        var variable = "";
+        let variable = "";
+        const variable = "";
+
+        //function
+        function calcularIMC(peso, altura) {
+            const alturaQuadrada = altura * altura;
+            const imc = peso / alturaQuadrada;
+            return imc; 
+        }
+
+        const imcDeborah = calcularIMC(71, 1.53);
+
+        console.log('IMC da Deborah: ', imcDeborah);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
